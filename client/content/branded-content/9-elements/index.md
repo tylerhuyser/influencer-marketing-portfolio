@@ -17,4 +17,4 @@ Leading consumer goods corporation, Procter & Gamble, sought to build recognitio
 
 Assembling a diverse group of female influencers, ranging from outdoors enthusiasts to stay-at-home mothers to fitness freaks, the messaging of the campaign reinforced the universality of the brand's core value: less is more.
 
-Optimized with trackable "Swipe Up" links and unique coupon codes, influencers drove traffic to the 9 Elements digital store, generating over 1,250 unique visits throughout the partnership.
+Optimized with trackable "Swipe Up" links and unique coupon codes, influencers drove traffic to the 9 Elements digital store, generating over 1,250 unique visits throughout the partnership. 
