@@ -1,15 +1,12 @@
 ---
-date: '6'
-title: 'ACE TENNIS SCORES'
-cover: './ace-tennis-scores.png'
-github: 'https://github.com/tylerhuyser/ACE-tennis-scores'
-external: 'https://www.ace-tennis-scores.com/'
-tech:
-  - Ruby
-  - Rails
-  - React
-  - Heroku
-  - Web Scraper
+client: '9 Elements'
+coverImage: './9-elements-cover-image.jpeg'
+heroImage: './9-elements-her-image.png'
+subImage: 'https://drive.google.com/file/d/1Xrf8rOIK1UirnBc04E13s4FdwalwlVFb/view?usp=sharing'
+stats:
+  - Thirty (30) Influencers (Rising Tier)
+  - One Hundred Twenty (120) Pieces of Content (2 x Posts + 2 x Stories w/ Swipe Up)
+  - Over 4 million impressions (paid + organic)
 showInProjects: true
 ---
 
