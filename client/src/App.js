@@ -4,10 +4,10 @@ import { Route, useNavigate, Routes } from "react-router-dom";
 import Layout from './components/shared/Layout'
 // import Loader from './components/shared/Loader'
 
-import Home from "../screens/Home";
-import About from '../screens/About'
-import CampaignDetail from "./screens/CampaignDetail";
-import CampaignByCategory from "./screens/CampaignsByCategory";
+import Home from './screens/Home'
+import About from './screens/About'
+import CampaignDetail from './screens/CampaignDetail';
+import CampaignsByCategory from './screens/CampaignsByCategory';
 
 import './App.css';
 
@@ -34,32 +34,34 @@ function App() {
             
         <Layout location={location} loaded={loaded} isMounted={isMounted} isHome={isHome} >
 
-          <Switch>
+          <Routes>
               
-            <Route exact path="/">
-              <Home />
-            </Route>
+            <Route exact path="/"
+              element={<Home />}
+            />
 
-            <Route path="/about">
-              <About />
-            </Route>
+            <Route path="/about"
+              element={<About />}
+            />
 
-            <Route path="/campaigns/:slug">
-              <CampaignDetail posts={posts} tags={tags} categories={categories} users={users} getPostsMethod={getPostsByCategory} />
-            </Route>
+            <Route path="/campaigns/:slug"
+              element={<CampaignDetail />}
+            />
 
-            <Route path="/categories/:name">
-              <CampaignsByCategory posts={posts} tags={tags} categories={categories} users={users} getPostsMethod={getPostsByCategory} />
-            </Route>
+            <Route path="/categories/:name"
+              element={<CampaignsByCategory/>}
+              />
               
-          </Switch>
+          </Routes>
 
         </Layout>
         
       :
 
-        <Loader finishLoading={() => setIsMounted(true)} id="app-loader" />
+        // <Loader finishLoading={() => setIsMounted(true)} id="app-loader" />
               
+        <p>LOADING</p>
+
       }
 
     </div>

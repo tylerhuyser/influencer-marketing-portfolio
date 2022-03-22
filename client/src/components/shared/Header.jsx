@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom';
 import { CSSTransition, TransitionGroup } from 'react-transition-group';
-import { loaderDelay } from '../../utils';
-import { useScrollDirection } from '../../hooks';
+import { loaderDelay } from "../../utils"
+import { useScrollDirection } from '../../hooks'
 
 // import IconLogo from './IconLogo'
 
@@ -148,12 +148,12 @@ export default function Header(props) {
 
           <Link to="/" className="mobile-logo-container">
 
-            <IconLogo style={{
+            {/* <IconLogo style={{
               zIndex: "5",
               textAlign: "center",
               verticalAlign: "center",
               
-          }} />
+          }} /> */}
 
           </Link>
 

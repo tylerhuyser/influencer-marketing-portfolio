@@ -1,9 +1,11 @@
 import React from 'react'
 import { useStaticQuery, graphql } from 'gatsby';
+import { useNavigate } from "react-router-dom";
 
 export default function CampaignCard (props) {
 
-  const {category} = props
+  const { category } = props
+  const navigate = useNavigate();
 
   const data = useStaticQuery(graphql`
     query {
@@ -27,6 +29,13 @@ export default function CampaignCard (props) {
     }
   `);
 
+  const handleCampaign = () => {
+    localStorage.setItem("currentCampaign", JSON.stringify(data.content.edge.filter()))
+    setTimeout(() => { navigate(`/campaigns/${data.content.edge.filter()}`) }, 1001)
+  }
+
+  console.log(data.content.edge.filter())
+
   const campaigns = data.content.edges.filter(({ node }) => node);
 
   return (
@@ -43,7 +52,7 @@ export default function CampaignCard (props) {
 
             return (
 
-              <div className="campaign-card" id={client} onClick={}>
+              <div className="campaign-card" id={client} onClick={handleCampaign}>
                 <img src={coverImage} />
                 <p className="comapign-card-title" id={`${client} title`}>{client}</p>
               </div>

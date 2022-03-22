@@ -6,7 +6,7 @@ import Footer from '../shared/Footer'
 import './Layout.css'
 
 
-export default function Layout(props) {
+export default function Layout (props) {
 
   const { isMounted, isHome } = props
 
@@ -50,7 +50,7 @@ export default function Layout(props) {
 
         <div className="logo-wrapper" id="layout-loader">
 
-          LOADING...
+          <p>LOADING...</p>
 
         </div>
       

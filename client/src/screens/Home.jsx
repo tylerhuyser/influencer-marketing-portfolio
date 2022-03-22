@@ -1,5 +1,7 @@
 import React from 'react'
 
+import CampaignCards from "../components/CampaignCards"
+
 import './Home.css'
 
 export default function Home (props) {
@@ -9,6 +11,7 @@ export default function Home (props) {
 
     <>
       
+      <CampaignCards categroy={"branded-content"} />
 
     </>
   )
