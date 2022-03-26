@@ -9,7 +9,7 @@ stats:
   - Over 4 million impressions (paid + organic)
 showInProjects: true
 ---
- 
+
 Leading consumer goods corporation, Procter & Gamble, sought to build recognition for their new line of eco-friendly home cleaners, 9 Elements. The Gallery Media Group team partnered with P&G in order to build an influencer program that would introduce 9 Elements to the market.
 
 Assembling a diverse group of female influencers, ranging from outdoors enthusiasts to stay-at-home mothers to fitness freaks, the messaging of the campaign reinforced the universality of the brand's core value: less is more.
